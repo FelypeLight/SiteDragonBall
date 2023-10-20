@@ -1,0 +1,234 @@
+body {
+	margin: 0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 15px;
+}
+
+
+
+#logo {
+	position: fixed;
+	top: 5px;
+	transition: transform 0.5s;
+	z-index: 9999;
+	border: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	background-color: #f78138;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #00008b;
+}
+
+nav img {
+	position: absolute;
+	left: 50px;
+	margin-top: -5px;
+
+
+}
+
+
+.PERSONALIZACAOINICIO {
+	background-color: #f78138;
+	background: #f78138;
+	padding: 20px;
+}
+
+.PERSONALIZACAOINICIO nav ul {
+	background-color: #f78138;
+}
+
+.PERSONALIZACAOINICIO section {
+	background-color: #f78138;
+}
+
+.historia {
+	background-color: black;
+	padding: 20px;
+}
+
+.historia nav ul {
+	background-color: black;
+}
+
+.momentos {
+	background-color: black;
+	padding: 20px;
+}
+
+.momentos nav ul {
+	background-color: black;
+}
+
+.personagem {
+	background-color: #7bbdf9;
+	padding: 20px;
+}
+
+.personagem nav ul {
+	background-color: #7bbdf9;
+}
+
+.transformacao {
+	background-color: #f78138;
+	padding: 20px;
+}
+
+.transformacao nav ul {
+	background-color: #f78138;
+}
+
+.sobre {
+	background-color: #92cbdc;
+	padding: 20px;
+}
+
+.sobre nav ul {
+	background-color: #92cbdc;
+}
+
+.curiosidades {
+	background-color: #000000;
+	padding: 20px;
+}
+
+.curiosidades nav ul {
+	background-color: #000000;
+}
+
+section h3 {
+	padding-left: 350px;
+	position: relative;
+	bottom: 50px;
+	font-size: 15px;
+	width: 500px;
+}
+
+section h1 {
+	padding-left: 350px;
+	margin-top: -125px;
+	position: relative;
+	bottom: 75px;
+	font-size: 35px;
+}
+
+.IMGSdosPERSONAGENS img {
+	display: inline-flex;
+	width: 300px;
+	margin-top: 20px;
+}
+
+.IMGSdosPERSONAGENS h1 h3 {
+	display: inline-flex;
+	width: 900px;
+	position: relative;
+	bottom: 400px;
+}
+
+.gifDasTransformações img {
+	display: inline-flex;
+	width: 400px;
+	margin-top: 20px;
+}
+
+.gifDasTransformações h1 h3 {
+	display: inline-flex;
+	width: 900px;
+	position: relative;
+	bottom: 400px;
+}
+
+.SOBRE_DRAGONBALL img {
+	display: inline-flex;
+	width: 400px;
+	margin-top: 20px;
+}
+
+.SOBRE_DRAGONBALL h1 h3 {
+	display: inline-flex;
+	width: 600px;
+	position: relative;
+	bottom: 400px;
+
+}
+
+.DRAGONBALLhistoria img {
+	display: inline-flex;
+	width: 400px;
+	margin-top: 20px;
+}
+
+.DRAGONBALLhistoria h1 h3 {
+	display: inline-flex;
+	width: 800px;
+	position: relative;
+	bottom: 400px;
+}
+
+.momentosmarcantes_conteudo img {
+	display: inline-flex;
+	width: 400px;
+	margin-top: 20px;
+}
+
+.momentosmarcantes_conteudo h1 h3 {
+	display: inline-flex;
+	width: 600px;
+	position: relative;
+	bottom: 400px;
+}
+
+.curiosidadesIMG img {
+	display: inline-flex;
+	width: 400px;
+	margin-top: 20px;
+}
+
+.curiosidadesIMG h1 h3 {
+	display: inline-flex;
+	width: 600px;
+	position: relative;
+	bottom: 400px;
+}
+
+#indexconteudo {
+	padding: 0px;
+	background-color: #f78138;
+}
+
+#indexconteudo h1 h3 {
+	margin: none;
+	display: inline-flex;
+	width: 600px;
+	position: relative;
+	bottom: 400px;
+	background-color: #f78138;
+}
+
+footer {
+	margin: 0px;
+	background-color: #000000;
+	padding: 20px;
+}

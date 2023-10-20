@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Início</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body >
+	<div class="fixed-image"><a href="index.html"><img id="logo" src="logo.png" alt="logo do dragon ball" height="60px"></a></div>
+	<script>
+		window.addEventListener('scroll',function(){
+			var image = document.getElementById('logo');
+			var scrollPos= document.documentElement.scrollTop;
+			var newScale = 1 - scrollPos*0.002;
+
+			if (newScale < 0.5){
+				newScale = 0.5;
+			}
+			image.style.transform='scale('+ newScale +')';
+			});
+		
+	</script>
+	<header class="PERSONALIZACAOINICIO">
+		
+        
+        
+		<nav>
+	
+			<ul>
+				<li>
+					<a href="index.html">Início</a>
+				</li>
+				<li>
+					<a href="sobre.html">Sobre</a>
+				</li>
+				<li>
+					<a href="historia.html">História</a>
+				</li>
+				<li>
+					<a href="personagens.html">Personagens</a>
+				</li>
+				<li>
+					<a href="transformacoes.html">Transformações</a>
+				</li>
+				<li>
+					<a href="momentosmarcantes.html">Momentos Marcantes</a>
+				</li>
+				<li>
+					<a href="curiosidades.html">Curiosidades</a>
+				</li>
+				<li>
+					<a href="contato.html">Contato</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<img src="SiteDBpw/imagens/IMAGEMINICOREAL.jpg" width="100%" height="50%">
+	<br><br><br><br><br><br><br>
+	<div id="indexconteudo">
+		
+		<div class="IMGdaDireita">
+			<img src="SiteDBpw/imagens/gokuInteragindoIndex/ola.png" width="100%" alt="">
+		</div>
+			
+		
+		
+		<br><br><br>
+		<div class="IMGnaEsquerda">
+			<img src="SiteDBpw/imagens/gokuInteragindoIndex/goku2.png" width="50%" right="0px" alt="">
+		</div>
+			
+		
+		
+			
+		
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div class="IMGdaDireita">
+			<img src="SiteDBpw/imagens/gokuInteragindoIndex/GOKUluta.png" width="30%" alt="">
+		</div>
+			
+		
+		
+			
+		
+
+		
+	</div>
+		
+
+	
+	<center>
+		<footer>&copy; 2023</footer>
+	</center>
+</body>
+
+</html>
